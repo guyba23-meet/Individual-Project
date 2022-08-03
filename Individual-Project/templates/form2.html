@@ -2,29 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
-    <!-- <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"> -->
+    <title>Signin</title>
     <style>
         body{
             background-image: url(static/empire.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
     </style>
 </head>
-
-
 <body>
-    <form method="POST" action="/form">
+    <form method="POST" action="/signin">
         <!-- Heading -->
         <h4>
-        Log in to your account
+            Create an account
         </h4>
 
         <!-- Subheading -->
         <p >
-        Please fill up your information below to sign up.
+            Please fill up your information below to sign in.
+            
         </p>
 
         <!-- Email -->
@@ -42,29 +39,13 @@
                 <input type="password"  name="password" minlength="6">
             </div>
         </div>
-        <!-- Full Name -->
-        <div>
-            <label>Full Name*</label>
-            <div class="text">
-                <input type="text"  name="full_name">
-            </div>
-        </div>
-
-        <!-- Username -->
-        <div>
-            <label>Username*</label>
-            <div class="text">
-                <input type="text"  name="username">
-            </div>
-        </div>
-
-       
+        
         <!-- Button -->
         <div>
             <input type="submit"/>
-
         </div>
     </form>
     <br>
-    <a href="/form2"><button>signin</button></a>
+    <a href="/planetx"><button>Planet X</button></a>
 </body>
+</html>
