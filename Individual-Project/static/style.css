@@ -1,0 +1,25 @@
+body
+{
+  background-color:black ;
+  background-image: url(Space.webp);
+	  /* Full height */
+  height: 100%;
+  width: 100%;
+   /* Center and scale the image nicely */
+  background-position: center-bottom;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+
+ 
+}
+
+
+.block {
+  display: block;
+  width: 100px;
+  height:100px;
+  border: none;
+  /*background-color:transparent;*/
+
+}   
+  

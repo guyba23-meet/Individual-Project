@@ -7,6 +7,13 @@ app.config['SECRET_KEY'] = 'super-secret-key'
 
 #Code goes below here
 
+@app.route('/', methods = ['GET', 'POST'])  # '/' for the default page
+def index():
+        return render_template('index.html')
+
+@app.route('/planet1', methods = ['GET', 'POST'])  # '/' for the default page
+def planet1():
+        return render_template('planet1.html')
 
 
 
