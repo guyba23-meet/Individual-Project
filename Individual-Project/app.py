@@ -15,6 +15,17 @@ def index():
 def planet1():
         return render_template('planet1.html')
 
+@app.route('/planet2', methods = ['GET', 'POST'])  # '/' for the default page
+def planet2():
+        return render_template('planet2.html')
+
+@app.route('/planet3', methods = ['GET', 'POST'])  # '/' for the default page
+def planet3():
+        return render_template('planet3.html')
+
+@app.route('/form', methods = ['GET', 'POST'])  # '/' for the default page
+def form():
+        return render_template('form.html')
 
 
 #Code goes above here
